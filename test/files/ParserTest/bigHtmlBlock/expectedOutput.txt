@@ -1,0 +1,24 @@
+This is a test document
+This is a text block
+^^^^ These are HTML newlines
+And these
+Are real newlines
+
+A line:
+==================================
+And text under it **Bold text *And italic within _And underlined_, see?***
+### A header ###
+
+## And another one ##
+
+
+Table header	Another one
+Table content	And some more
+
+
+Table header	Next to each other
+Table content	And some more
+
+And ofcourse, a link. Click here (http://www.example.org/).
+
+Then, some HTML entities: € & < and some unescaped ones: < < > > | " ;
