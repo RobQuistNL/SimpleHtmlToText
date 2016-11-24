@@ -20,4 +20,5 @@ class ParserTest extends \PHPUnit_Framework_TestCase
         //Please take note of \r\n and \n files. If your result file is \n then it won't match...
         $this->assertEquals($expected, $result);
     }
+
 }
