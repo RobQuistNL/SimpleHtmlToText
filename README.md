@@ -30,5 +30,7 @@ Currently only a few basic tags are supported, and no CSS is checked.
 - ``hr``
 - ``h1``, ``h2``, ``h3``, ``h4``, ``h5``, ``h6``
 - ``table``, ``tr``, ``td``, ``th`` (Very basic support)
-- ``b``, ``strong``, ``u``,  ``i``
+- ``b``, ``strong``, ``u``,  ``i``, ``em``
 - ``a`` Simple support; ``<a href="http://example.org">Click here</a>`` becomes ``Click here (http://example.org)``
+- ``img`` Simple support; ``<img src="http://example.org/image.jpg">`` becomes `` `` and  ``<img alt="title" src="http://example.org/image.jpg">`` becomes ``(title)``
+- ``ul``, ``ol``, ``li``, ``dd``, ``dt``
